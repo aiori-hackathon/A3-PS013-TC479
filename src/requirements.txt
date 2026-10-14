@@ -1,0 +1,10 @@
+# Core (needed to run the tool)
+streamlit>=1.30        # the search dashboard (also installs pandas)
+tzdata                 # time-zone database; Windows needs this for zoneinfo
+
+# Optional extras (the tool still works if these are missing)
+fpdf2>=2.7             # PDF version of the report (Markdown is always produced)
+google-genai>=1.0      # optional Gemini AI helper, off unless GEMINI_API_KEY is set
+
+# For running the tests
+pytest

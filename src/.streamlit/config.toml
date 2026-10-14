@@ -1,0 +1,23 @@
+# Dashboard look and privacy settings (read by "streamlit run app.py").
+
+[theme]
+base = "dark"
+primaryColor = "#3B82F6"
+backgroundColor = "#0B1120"
+secondaryBackgroundColor = "#111827"
+textColor = "#E2E8F0"
+borderColor = "#1E293B"
+dataframeHeaderBackgroundColor = "#0F172A"
+baseRadius = "medium"
+font = "'Segoe UI', Inter, system-ui, sans-serif"
+codeFont = "Consolas, 'Cascadia Mono', monospace"
+showSidebarBorder = true
+
+[client]
+toolbarMode = "minimal"          # hides the Deploy button and developer menu
+
+[browser]
+gatherUsageStats = false         # offline tool: send nothing to Streamlit
+
+[server]
+showEmailPrompt = false

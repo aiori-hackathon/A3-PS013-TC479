@@ -1,0 +1,23 @@
+# Secrets - never commit real API keys
+.env
+*.env
+
+# Generated forensic outputs and evidence
+*.db
+output/
+evidence/
+uploads/
+
+# Python clutter
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# IDE / OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,89 @@
+Oct 10 09:00:01 prod-web01 CRON[4001]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 09:00:02 prod-web01 CRON[4002]: pam_unix(cron:session): session closed for user root
+Oct 10 09:05:10 prod-web01 sshd[4013]: Accepted publickey for alice from 10.0.0.21 port 51022 ssh2
+Oct 10 09:05:10 prod-web01 sshd[4014]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 10 09:06:00 prod-web01 sudo:   alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl status nginx
+Oct 10 09:15:00 prod-web01 sshd[4021]: Failed password for root from 203.0.113.10 port 40000 ssh2
+Oct 10 09:15:06 prod-web01 sshd[4022]: Failed password for admin from 203.0.113.10 port 40001 ssh2
+Oct 10 09:15:12 prod-web01 sshd[4023]: Failed password for root from 203.0.113.10 port 40002 ssh2
+Oct 10 09:15:18 prod-web01 sshd[4024]: Invalid user test from 203.0.113.10 port 40003
+Oct 10 09:15:18 prod-web01 sshd[4025]: Failed password for invalid user test from 203.0.113.10 port 40003 ssh2
+Oct 10 09:15:24 prod-web01 sshd[4026]: Invalid user oracle from 203.0.113.10 port 40004
+Oct 10 09:15:24 prod-web01 sshd[4027]: Failed password for invalid user oracle from 203.0.113.10 port 40004 ssh2
+Oct 10 09:15:30 prod-web01 sshd[4028]: Failed password for root from 203.0.113.10 port 40005 ssh2
+Oct 10 09:15:36 prod-web01 sshd[4029]: Invalid user ubuntu from 203.0.113.10 port 40006
+Oct 10 09:15:36 prod-web01 sshd[4030]: Failed password for invalid user ubuntu from 203.0.113.10 port 40006 ssh2
+Oct 10 09:15:42 prod-web01 sshd[4031]: Failed password for admin from 203.0.113.10 port 40007 ssh2
+Oct 10 09:15:48 prod-web01 sshd[4032]: Invalid user postgres from 203.0.113.10 port 40008
+Oct 10 09:15:48 prod-web01 sshd[4033]: Failed password for invalid user postgres from 203.0.113.10 port 40008 ssh2
+Oct 10 09:15:54 prod-web01 sshd[4034]: Failed password for root from 203.0.113.10 port 40009 ssh2
+Oct 10 09:16:00 prod-web01 sshd[4035]: Invalid user git from 203.0.113.10 port 40010
+Oct 10 09:16:00 prod-web01 sshd[4036]: Failed password for invalid user git from 203.0.113.10 port 40010 ssh2
+Oct 10 09:16:06 prod-web01 sshd[4037]: Failed password for root from 203.0.113.10 port 40011 ssh2
+Oct 10 09:16:12 prod-web01 sshd[4038]: Failed password for admin from 203.0.113.10 port 40012 ssh2
+Oct 10 09:16:18 prod-web01 sshd[4039]: Invalid user jenkins from 203.0.113.10 port 40013
+Oct 10 09:16:18 prod-web01 sshd[4040]: Failed password for invalid user jenkins from 203.0.113.10 port 40013 ssh2
+Oct 10 09:16:24 prod-web01 sshd[4041]: Failed password for root from 203.0.113.10 port 40014 ssh2
+Oct 10 09:16:30 prod-web01 sshd[4042]: Invalid user ftp from 203.0.113.10 port 40015
+Oct 10 09:16:30 prod-web01 sshd[4043]: Failed password for invalid user ftp from 203.0.113.10 port 40015 ssh2
+Oct 10 09:16:36 prod-web01 sshd[4044]: Failed password for root from 203.0.113.10 port 40016 ssh2
+Oct 10 09:16:42 prod-web01 sshd[4045]: Failed password for admin from 203.0.113.10 port 40017 ssh2
+Oct 10 09:16:48 prod-web01 sshd[4046]: Invalid user support from 203.0.113.10 port 40018
+Oct 10 09:16:48 prod-web01 sshd[4047]: Failed password for invalid user support from 203.0.113.10 port 40018 ssh2
+Oct 10 09:16:54 prod-web01 sshd[4048]: Failed password for root from 203.0.113.10 port 40019 ssh2
+Oct 10 09:20:04 prod-web01 sshd[4016]: Disconnected from user alice 10.0.0.21 port 51022
+Oct 10 09:30:01 prod-web01 CRON[4003]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 09:30:02 prod-web01 CRON[4004]: pam_unix(cron:session): session closed for user root
+Oct 10 09:42:00 prod-web01 sshd[4049]: Failed password for deploy from 203.0.113.20 port 41000 ssh2
+Oct 10 09:42:07 prod-web01 sshd[4050]: Failed password for deploy from 203.0.113.20 port 41001 ssh2
+Oct 10 09:42:14 prod-web01 sshd[4051]: Failed password for deploy from 203.0.113.20 port 41002 ssh2
+Oct 10 09:42:21 prod-web01 sshd[4052]: Failed password for deploy from 203.0.113.20 port 41003 ssh2
+Oct 10 10:1
+Oct 10 09:42:28 prod-web01 sshd[4053]: Failed password for deploy from 203.0.113.20 port 41004 ssh2
+Oct 10 09:42:35 prod-web01 sshd[4054]: Failed password for deploy from 203.0.113.20 port 41005 ssh2
+Oct 10 09:42:42 prod-web01 sshd[4055]: Failed password for deploy from 203.0.113.20 port 41006 ssh2
+Oct 10 09:42:49 prod-web01 sshd[4056]: Failed password for deploy from 203.0.113.20 port 41007 ssh2
+Oct 10 09:42:56 prod-web01 sshd[4057]: Failed password for deploy from 203.0.113.20 port 41008 ssh2
+Oct 10 09:43:03 prod-web01 sshd[4058]: Failed password for deploy from 203.0.113.20 port 41009 ssh2
+Oct 10 09:43:10 prod-web01 sshd[4059]: Failed password for deploy from 203.0.113.20 port 41010 ssh2
+Oct 10 09:43:17 prod-web01 sshd[4060]: Failed password for deploy from 203.0.113.20 port 41011 ssh2
+Oct 10 09:43:40 prod-web01 sshd[4061]: Accepted password for deploy from 203.0.113.20 port 41020 ssh2
+Oct 10 09:43:40 prod-web01 sshd[4062]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct 10 09:45:02 prod-web01 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Oct 10 09:46:30 prod-web01 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/sbin/useradd -m -s /bin/bash sysupdate
+Oct 10 09:47:10 prod-web01 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/crontab -e
+Oct 10 09:52:00 prod-web01 sshd[4066]: Disconnected from user deploy 203.0.113.20 port 41020
+Oct 10 10:00:01 prod-web01 CRON[4005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 10:00:02 prod-web01 CRON[4006]: pam_unix(cron:session): session closed for user root
+Oct 10 10:02:30 prod-web01 sshd[4017]: Failed password for bob from 10.0.0.22 port 52011 ssh2
+Oct 10 10:02:36 prod-web01 sshd[4018]: Accepted password for bob from 10.0.0.22 port 52011 ssh2
+Oct 10 10:20:00 prod-web01 sshd[4067]: Failed password for anna from 198.51.100.50 port 42000 ssh2
+Oct 10 10:20:09 prod-web01 sshd[4068]: Failed password for ben from 198.51.100.50 port 42001 ssh2
+Oct 10 10:20:18 prod-web01 sshd[4069]: Failed password for carol from 198.51.100.50 port 42002 ssh2
+Oct 10 10:20:27 prod-web01 sshd[4070]: Failed password for dave from 198.51.100.50 port 42003 ssh2
+Oct 10 10:20:36 prod-web01 sshd[4071]: Failed password for erin from 198.51.100.50 port 42004 ssh2
+Oct 10 10:20:45 prod-web01 sshd[4072]: Failed password for frank from 198.51.100.50 port 42005 ssh2
+Oct 10 10:20:54 prod-web01 sshd[4073]: Failed password for harry from 198.51.100.50 port 42006 ssh2
+Oct 10 10:21:03 prod-web01 sshd[4074]: Failed password for irene from 198.51.100.50 port 42007 ssh2
+Oct 10 10:21:30 prod-web01 sshd[4075]: Accepted password for intern from 198.51.100.50 port 42050 ssh2
+Oct 10 10:22:15 prod-web01 sudo:   intern : TTY=pts/3 ; PWD=/home/intern ; USER=root ; COMMAND=/usr/bin/sudo -l
+Oct 10 10:23:05 prod-web01 sudo:   intern : TTY=pts/3 ; PWD=/home/intern ; USER=root ; COMMAND=/usr/bin/chmod u+s /bin/bash
+Oct 10 10:30:01 prod-web01 CRON[4007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 10:30:02 prod-web01 CRON[4008]: pam_unix(cron:session): session closed for user root
+Oct 10 10:48:20 prod-web01 sshd[4085]: Accepted password for dbadmin from 10.0.0.15 port 50544 ssh2
+Oct 10 10:49:30 prod-web01 sudo:   dbadmin : TTY=pts/4 ; PWD=/home/dbadmin ; USER=postgres ; COMMAND=/usr/bin/pg_dump customers
+Oct 10 10:55:00 prod-web01 sshd[4087]: Disconnected from user dbadmin 10.0.0.15 port 50544
+Oct 10 11:00:00 prod-web01 sshd[4078]: Failed password for root from 192.0.2.77 port 43000 ssh2
+Oct 10 11:00:01 prod-web01 CRON[4009]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 11:00:02 prod-web01 CRON[4010]: pam_unix(cron:session): session closed for user root
+Oct 10 11:00:35 prod-web01 sshd[4079]: Failed password for root from 192.0.2.77 port 43001 ssh2
+Oct 10 11:01:10 prod-web01 sshd[4080]: Failed password for root from 192.0.2.77 port 43002 ssh2
+Oct 10 11:01:45 prod-web01 sshd[4081]: Failed password for root from 192.0.2.77 port 43003 ssh2
+Oct 10 11:02:20 prod-web01 sshd[4082]: Failed password for root from 192.0.2.77 port 43004 ssh2
+Oct 10 11:02:55 prod-web01 sshd[4083]: Failed password for root from 192.0.2.77 port 43005 ssh2
+Oct 10 11:03:30 prod-web01 sshd[4084]: Failed password for root from 192.0.2.77 port 43006 ssh2
+Oct 10 11:15:00 prod-web01 sshd[4019]: Accepted publickey for backupsvc from 10.0.0.40 port 49822 ssh2
+Oct 10 11:16:00 prod-web01 sshd[4020]: Disconnected from user backupsvc 10.0.0.40 port 49822
+Oct 10 11:30:01 prod-web01 CRON[4011]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 11:30:02 prod-web01 CRON[4012]: pam_unix(cron:session): session closed for user root
+2026-10-10T11:40:00.000+05:30 prod-web01 sshd[9999]: Connection closed by 10.0.0.30

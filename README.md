@@ -102,7 +102,7 @@ Requires **Python 3.10+**.
 
 ```bash
 git clone https://github.com/komalganjave32-glitch/A3-PS013-TC479.git
-cd arixa-forensic-timeline
+cd A3-PS013-TC479/src
 pip install -r requirements.txt
 
 python run.py demo        # ingest 3 sample incidents, detect, verify, write the report

@@ -1,0 +1,5 @@
+{"ts":"2026-10-10T06:41:00Z","device":"fw01","action":"deny","src":"198.51.100.23","dst":"10.20.0.12","dport":22}
+{"ts":"2026-10-10T06:41:05Z","device":"fw01","action":"allow","src":"10.20.0.12","dst":"198.51.100.23","dport":443,"bytes":48211904}
+CEF:0|DemoVendor|DemoFW|1.0|100|Outbound transfer above threshold|7|src=10.20.0.12 dst=198.51.100.23 out=48211904
+Oct 10 07:41:10 fw01 kernel: [55120.120000] DROP IN=eth0 OUT= SRC=198.51.100.23 DST=10.20.0.12 PROTO=TCP DPT=3389
+2026-10-10 06:42:00,123 WARN [ids] signature 2019401 matched for 192.0.2.66

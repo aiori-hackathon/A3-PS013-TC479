@@ -1,0 +1,10 @@
+Oct  9 04:00:01 db01 CRON[771]: pam_unix(cron:session): session opened for user postgres by (uid=0)
+Oct  9 04:00:03 db01 CRON[771]: pam_unix(cron:session): session closed for user postgres
+Oct  9 04:12:40 db01 sshd[802]: Accepted publickey for backupsvc from 10.0.0.40 port 49822 ssh2
+Oct  9 04:13:10 db01 sshd[802]: Disconnected from user backupsvc 10.0.0.40 port 49822
+Oct  9 04:30:05 db01 sshd[880]: Accepted password for dbadmin from 10.0.0.15 port 50544 ssh2
+Oct  9 04:30:05 db01 sshd[880]: pam_unix(sshd:session): session opened for user dbadmin by (uid=0)
+Oct  9 04:31:20 db01 sudo:  dbadmin : TTY=pts/0 ; PWD=/home/dbadmin ; USER=postgres ; COMMAND=/usr/bin/pg_dump customers
+Oct  9 04:33:47 db01 sshd[880]: Disconnected from user dbadmin 10.0.0.15 port 50544
+<134>1 2026-10-09T04:34:00-04:00 db01 postgres 991 - - connection authorized: user=dbadmin database=customers
+Oct  9 05:00:01 db01 CRON[901]: pam_unix(cron:session): session opened for user postgres by (uid=0)

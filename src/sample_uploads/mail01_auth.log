@@ -1,0 +1,23 @@
+Oct 10 06:00:01 mail01 CRON[3301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 10 06:00:02 mail01 CRON[3301]: pam_unix(cron:session): session closed for user root
+Oct 10 06:05:41 mail01 sshd[3320]: Accepted publickey for opsbot from 10.20.0.5 port 50110 ssh2
+Oct 10 06:05:44 mail01 sshd[3320]: Disconnected from user opsbot 10.20.0.5 port 50110
+Oct 10 06:12:03 mail01 sshd[3402]: Failed password for anna from 198.51.100.23 port 41001 ssh2
+Oct 10 06:12:09 mail01 sshd[3403]: Failed password for ben from 198.51.100.23 port 41007 ssh2
+Oct 10 06:12:15 mail01 sshd[3404]: Failed password for carol from 198.51.100.23 port 41013 ssh2
+Oct 10 06:12:21 mail01 sshd[3405]: Failed password for dave from 198.51.100.23 port 41019 ssh2
+Oct 10 06:12:27 mail01 sshd[3406]: Invalid user erin from 198.51.100.23 port 41025
+Oct 10 06:12:27 mail01 sshd[3406]: Failed password for invalid user erin from 198.51.100.23 port 41025 ssh2
+Oct 10 06:12:33 mail01 sshd[3407]: Failed password for frank from 198.51.100.23 port 41031 ssh2
+Oct 10 06:12:39 mail01 sshd[3408]: Failed password for harry from 198.51.100.23 port 41037 ssh2
+Oct 10 06:12:45 mail01 sshd[3409]: Failed password for irene from 198.51.100.23 port 41043 ssh2
+Oct 10 06:12:51 mail01 sshd[3410]: Accepted password for grace from 198.51.100.23 port 41049 ssh2
+Oct 10 06:12:51 mail01 sshd[3410]: pam_unix(sshd:session): session opened for user grace by (uid=0)
+Oct 10 06:14:10 mail01 sudo:    grace : TTY=pts/2 ; PWD=/home/grace ; USER=root ; COMMAND=/usr/bin/sudo -l
+Oct 10 06:15:32 mail01 sudo:    grace : TTY=pts/2 ; PWD=/home/grace ; USER=root ; COMMAND=/usr/bin/crontab -e
+Oct 10 06:16:05 mail01 sudo:    grace : TTY=pts/2 ; PWD=/home/grace ; USER=root ; COMMAND=/usr/bin/tee -a /root/.ssh/authorized_keys
+Oct 10 06:18:40 mail01 sshd[3410]: Disconnected from user grace 198.51.100.23 port 41049
+Oct 10 06:30:00 mail01 postfix/smtpd[3500]: connect from relay.example.test[10.20.0.9]
+Oct 10 06:40:12 mail01 sshd[3520]: Failed password for opsbot from 10.20.0.5 port 50200 ssh2
+Oct 10 06:40:18 mail01 sshd[3520]: Accepted password for opsbot from 10.20.0.5 port 50200 ssh2
+Oct 10 06:4#!corrupt

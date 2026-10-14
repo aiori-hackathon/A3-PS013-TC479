@@ -1,0 +1,15 @@
+# Secrets - never commit your real API key
+.env
+
+# Generated data
+*.db
+output/
+evidence/
+uploads/
+
+# Python clutter
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
